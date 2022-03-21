@@ -1,4 +1,4 @@
-# InterIIT_Map_Generation
+# Map Generation using UAV
 
 ## Introduction
  These files contain the progress of my mini-project Map Generation. 
