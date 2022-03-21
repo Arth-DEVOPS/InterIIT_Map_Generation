@@ -1,5 +1,5 @@
 # Map Generation using UAV
-
+ 
 ## Introduction
  These files contain the progress of my mini-project Map Generation. 
  A camera was attached to the quadcopter and a node was designed with the purpose of capturing images at regular intervals. 
