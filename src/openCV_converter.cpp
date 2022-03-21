@@ -45,7 +45,7 @@ class ImageConverter {
         saving_name.append(name_changer);
         saving_name.append(".jpg");
         ctr++;
-        imwrite(gray_image, cv_ptr->image);
+        imwrite(saving_name, cv_ptr->image);
 
         cv::imshow(OPENCV_WINDOW, cv_ptr->image);
         cv::waitKey(3);
