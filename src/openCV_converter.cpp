@@ -20,7 +20,7 @@ class ImageConverter {
   public:
     ImageConverter()
         : it_(nh_) {
-        image_sub_ = it_.subscribe("/firefly/camera_red_iris/image_raw", 1, &ImageConverter::imageCb, this);
+        image_sub_ = it_.subscribe("/iris/camera_red_iris/image_raw", 1, &ImageConverter::imageCb, this);
         image_pub_ = it_.advertise("/image_converter/output_video", 1);
 
         cv::namedWindow(OPENCV_WINDOW);
