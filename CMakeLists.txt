@@ -140,9 +140,9 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(rosco_node src/node1.cpp)
-add_executable(rostocvimg src/node3.cpp)
-add_executable(stitch_exec src/stitchimgs.cpp)
+add_executable(rosco_node src/trajectory.cpp)
+add_executable(rostocvimg src/openCV_converter.cpp)
+add_executable(stitch_exec src/mosaicing.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
