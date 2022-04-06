@@ -2,7 +2,7 @@
  
  
 ## The problem addressed by the project-
-The project addresses the problem of designing nodes for UAV sensors and platforms to develop mapping applications and observing information from top or oblique views. The UAV has been modified to produce geographically accurate ortho-rectified two-dimensional to help with topographic surveys and generate accurate maps to help out with site surveys. 
+The project addresses the problem of designing nodes for UAV sensors and platforms to develop mapping applications and observing information from top or oblique views. The UAV has been modified to produce geographically accurate ortho-rectified two-dimensional accurate maps to help with topographic surveys and site surveys. 
 
 ## Proposed solution-
 The solution utilises the PX4 repository, and the solution was designed as follows. A camera was attached to the iris quadcopter by modifying the xacro file and writing the code for the camera accessory. The node openCV_converter was designed with the purpose of capturing images at regular intervals, and OpenCV was used to execute this. Initially, the node was designed to take a snap of a single picture; however, with the help of static integers, it was repurposed for storing images with different names at regular intervals. A survey routine was then decided so as to minimise flight time while simultaneously covering the entire map. 
